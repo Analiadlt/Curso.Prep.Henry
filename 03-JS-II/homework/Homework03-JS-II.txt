@@ -1,0 +1,16 @@
+Explicación de los siguientes conceptos 
+
+BUCLES for
+Los bucles for sirven para repetir un código mientras se cumpla una determinada condición. 
+Para que funcione correctamente, se escribe la palabra clave for seguida de paréntesis y luego las llaves que encierran el código que se va a repetir. Dentro de los paréntesis, se establecen tres partes separadas por un punto y coma. En la primera parte, se define una variable con un valor inicial. En la segunda parte, se declara una expresión condicional que hará que el bucle se repita hasta que esa condición sea false. La tercera parte consiste en establecer el incremento de la variable declarada.  
+
+Operadores lógicos
+
+&&
+El operador && equivale a Y o AND. Une dos expresiones y devolverá TRUE sólo si ambas expresiones son TRUE, si alguna de las expresiones es FALSE, devolverá FALSE.
+
+||
+El operador || equivale a O o OR. Une dos expresiones y devolverá TRUE si alguna o ambas de las expresiones es TRUE, si ambas expresiones son FALSE, devolverá FALSE.
+
+!
+El operador ! (NOT) es la negación de la expresión que precede, por ejemplo, si tenemos !TRUE, devolverá FALSE y !FALSE devolverá TRUE.
