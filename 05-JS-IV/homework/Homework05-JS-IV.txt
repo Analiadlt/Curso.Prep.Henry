@@ -1,0 +1,28 @@
+Objetos
+Un objeto es un conjunto de datos ordenados como en un array, sólo que en lugar de tener un índice para acceder al dato, se le asigna una 'propiedad' o varias al objeto y a cada propiedad un valor. De esta forma, cada dato es un par propiedad-valor.
+Se define un objeto usando un nombre, seguido del signo = y luego entre {} se colocan cada una de las propiedades, estas deben tener un nombre, luego ':'  seguido del valor de esa propiedad y una coma para separlas entre sí. Los valores a almacenar, puenden ser de cualquier tipo, incluso, arreglos, funciones u otro objeto.
+
+Propiedades
+Un objeto puede tener varias propiedades, estas son los pares clave-valor que se quiere asignar a un objeto. Los nombres de estas propiedades (claves) deben ser únicos, aunque los valores sean iguales, ya que para poder acceder o conocer el valor almacenado en esa clave, nos referimos al Objeto.propiedad. 
+
+
+Métodos
+Se denomina método a toda función definida dentro de un objeto. Es decir, una propiedad puede ser una función, esta se denomina método. Luego se la invoca como cualquier propiedad.
+
+Bucle for…in
+Este bucle permite recorrer todas las claves de un objeto, desde la primera a la última.
+Para ello, usamos for (let clave in objeto).
+
+
+Notación de puntos vs notación de corchetes
+Para acceder a las propiedades de un objeto, lo podemos hacer por DOT notation o BRACKETS notation
+
+DOT notation
+Se coloca el nombre del objeto, seguido de punto y luego el nombre de la propiedad, de esa manera podemos conocer o utilizar el valor de esa propiedad.
+
+    objeto.propiedad
+
+BRACKETS notation
+La otra forma de acceder al valor de una propiedad, es colocando el nombre del objeto y luego entre [] el string del nombre de la propiedad. Esta forma es parecida al nombre de cada elemento del array, nada más que en lugar de colocar el valor del índice, se coloca el string del nombre de la propiedad.
+
+		objeto['propiedad']
