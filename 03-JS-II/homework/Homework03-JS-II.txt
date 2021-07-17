@@ -1,4 +1,4 @@
-Explicación de los siguientes conceptos 
+Explicación de los siguientes conceptos: 
 
 BUCLES for
 Los bucles for sirven para repetir un código mientras se cumpla una determinada condición. 

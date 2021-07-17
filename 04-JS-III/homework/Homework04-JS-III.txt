@@ -1,0 +1,11 @@
+Explicación de Arrays
+
+Un Array es un conjunto de datos almacenados en una variable. Esta variable es una matriz que puede tener datos de distintos tipos y estos datos se encuentran ordenados en una lugar de la matriz y podemos acceder a cada dato por su posición dentro de la matriz.
+Para definir un Array, se define una variable a la que se le asigna []. Para acceder a una dato partircular del arreglo, lo hacemos con el nombre del arreglo y entre brackets el valor de la posición del elemento dentro de la matriz. La primera posición dentro de la matriz es 0.
+Ejemplo de array:
+var conjuntoejemplo = []; // define un array vacío
+
+var conjuntoejemplo = ['Sol', 'Luna', 50, true]; //define un array con datos
+
+return conjuntoejemplo[0]; //devuelve 'Sol' 
+
