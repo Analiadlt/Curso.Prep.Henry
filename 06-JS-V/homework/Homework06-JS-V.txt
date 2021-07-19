@@ -1,0 +1,15 @@
+prototype
+Cada vez que debemos definir funciones o métodos de un objeto, lo hacemos en la propiedad prototype de la Clase. de esta manera, damos acceso a ese método a todos los objetos de esa clase. 
+Los métodos de prototype tienen acceso a la palabra clave 'this'.
+Object.create: Este método nos permite crear un objeto nuevo a partir del prototype especificado.
+Object.assign(): El método assign de los objetos te permite agregar propiedades a un objeto pasado por parámetro. 
+
+Constructors (de Clases)
+Todo lo que sean propiedades de un objeto van en el constructor de una clase. En ese constructor se utiliza la palabra clave 'this'. 
+
+function Ejemplo (uno, dos) {
+	this.dato1 = uno;
+	this.dato2 = dos;
+}
+
+
