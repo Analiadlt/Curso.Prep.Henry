@@ -1,0 +1,8 @@
+Funciones Callback
+
+En JS las funciones se pueden mandar como argumento de otra función, esto se conoce como 'callback'.
+Es decir que una función puede invocar a otra función y retornar los datos de la función invocada.
+Es difícil de explicar, pero simple de usar, lo mejor es llevarlo a un ejemplo práctico.
+
+var alumnos = ['emi', 'lis', 'cami']; // define un array
+alumnos.forEach (function (elemento) {console.log (elemento)}); // invoca una función como argumento del método .forEach por cada elemento del array.
