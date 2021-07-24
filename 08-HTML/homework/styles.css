@@ -1,4 +1,6 @@
-    h1{color: red;}
-    img{width: 400px;}
-    #thirdDiv{height: 600px; width: 500px; background: orange; padding: 50px; border: 2px solid black;}
-    #spanId{font-size: 18px; margin: 50px;}
+h1{color: darkblue;}
+img{width: 400px; position: relative; left: 10px;}
+#thirdDiv{height: 600px; width: 500px; background: orange; padding: 50px; border: 2px solid black; margin: 0 auto;}
+#spanId{font-size: 18px; margin: 50px;} 
+html{background-image: url("https://images.freeimages.com/images/small-previews/5eb/more-photo-file-2-1169682.jpg");}
+.divClass{text-align: center;}

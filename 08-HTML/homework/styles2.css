@@ -1,3 +1,7 @@
-    h1{color: black;}
-    img{width: 200px;}
-    #spanId{font-size: 18px; margin: 50px;}
+html{background-image: url("https://images.freeimages.com/images/small-previews/5eb/more-photo-file-2-1169682.jpg");}
+h1{color: black;}
+p{text-indent: 5mm; margin-right: 100px;}
+img{width: 200px;position: relative; left: 10px;}
+#spanId{font-size: 24px; margin: 50px;}
+.divClass{text-align: center;}
+.divItem{text-align: justify; margin-left: 200px;}
