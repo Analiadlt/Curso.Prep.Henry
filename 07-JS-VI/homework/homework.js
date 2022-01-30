@@ -4,10 +4,13 @@ function mayuscula(nombre) {
   //La función recibe un nombre y debe devolver el mismo que recibe pero con su primer letra en mayúscula
   //ej: Recibe "mario" ----> Devuelve "Mario"
   //Tu código:
-  inicial = nombre.charAt(0)
-  inicial = inicial.toUpperCase();
-  nombre = inicial + nombre.slice(1);
-  return nombre;
+ 
+ // inicial = nombre.charAt(0)
+ // inicial = inicial.toUpperCase();
+ // nombre = inicial + nombre.slice(1);
+ // return nombre;
+
+  return nombre[0].toUpperCase() + nombre.slice(1);
 }
 
 function invocarCallback(cb) {
@@ -42,28 +45,40 @@ function forEach(array, cb) {
   array.forEach(cb);
 }
 
+
 function map(array, cb) {
   // Crea un nuevo array
   // Itera sobre cada valor en "array", pásalo a `cb` y luego ubicar el valor devuelto por `cb` en un nuevo array
   // El nuevo array debe tener la misma longitud que el array del argumento
   //Tu código:
-  var newarray=[];
-  for(i=0; i<array.length; i++) {
-      newarray[i] = cb(array[i]);
-  }
+ // var newarray=[];
+  //for(i=0; i<array.length; i++) {
+   //   newarray[i] = cb(array[i]);
+  //}
+  //return newarray;
+
+  var newarray = array.map(cb);
   return newarray;
 }
+
   
 
 function filter(array) {
   //Filtrar todos los elementos del array que comiencen con la letra "a".
   //Devolver un nuevo array con los elementos que cumplen la condición
   var newarray = [];
-  for (var i=0; i<array.length; i++) {
-      if (array[i].charAt(0) === 'a') {
-        newarray.push(array[i]);      
-      }
+  //for (var i=0; i<array.length; i++) {
+  //    if (array[i].charAt(0) === 'a') {
+  //      newarray.push(array[i]);      
+  //    }
+  //  }
+ var i = 0;
+ array.forEach (function (elemento) {
+    if (elemento[0] === 'a') {
+      newarray[i] = elemento;
+      i++;
     }
+  });
     return newarray;
 }
 
